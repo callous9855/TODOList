@@ -1,13 +1,8 @@
-#container{
-	width: 360px;
-	margin: 100px auto;
-	box-shadow: 0 0 3px rgba(0,0,0,0.1);
-	background: #f7f7f7;
+body{
+	background: #232931;
+	font-family: 'Roboto';
 }
-.completed{
-	color: gray;
-	text-decoration: line-through;
-}
+
 h1{
 	background: #4ECCA3;
 	color: #EEEEEE;
@@ -18,25 +13,28 @@ h1{
 	height: 40px;
 	/*font-weight: normal;*/
 }
-li{
-	background: #fff;
-	height: 40px;
-	line-height: 40px;
 
-}
-li:nth-child(2n){
-	background: #f7f7f7;
-}
-body{
-	background: #232931;
-	font-family: 'Roboto';
-}
 ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
 
 }
+
+li{
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #393E46;
+
+}
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+li:hover span{
+	width: 40px;
+}
+
 input{
 	font-size: 18px;
 	background: #f7f7f7;
@@ -51,20 +49,35 @@ input:focus{
 	border: 3px solid #4ECCA3;
 	outline: none;
 }
+
 span{
-	background: red;
+	background: #4ECCA3;
 	height: 40px;
 	margin-right: 20px;
 	text-align: center;
 	color: white;
 	width: 0px;
 	display: inline-block;
-	transition: 0.3s linear;
 }
-li:hover span{
-	width: 40px;
+
+#container{
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	background: #f7f7f7;
 }
+.completed{
+	color: gray;
+	text-decoration: line-through;
+}
+
 .fa-plus{
 	float: right;
+	margin-left: 20px;
 	/*padding-right: 20px;*/
 }
+
+.fa-volume-up, .fa-volume-off{
+	float: right;
+}
+
