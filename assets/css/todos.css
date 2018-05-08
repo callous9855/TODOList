@@ -59,6 +59,9 @@ span{
 	width: 0px;
 	display: inline-block;
 }
+i:hover{
+	color: white;
+}
 
 #container{
 	width: 360px;
@@ -80,4 +83,5 @@ span{
 .fa-volume-up, .fa-volume-off{
 	float: right;
 }
+
 
